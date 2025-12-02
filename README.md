@@ -152,13 +152,3 @@ Este proyecto permitió identificar claramente qué canales generan valor real p
 📍 La retención es más importante que la adquisición masiva.
 
 ✅ Marketing basado en datos = mejores resultados.
-
-## 📂 Estructura del Repositorio
-
-```text
-📁 Proyecto  
- ┣ 📜 README.md  
- ┣ 📓 notebook.ipynb  
- ┣ 📂 data  
- ┗ 📂 reports  
-▶️ Instrucciones de Ejecuci
