@@ -26,134 +26,139 @@
 
 </div>
 
-## 📌 Project Overview
+## 📌 Descripción del Proyecto
 
-This project focuses on optimizing marketing spending by analyzing user activity, purchase behavior, and advertising investments.  
-The objective is to identify the most profitable marketing sources and improve decision-making through business metrics.
+Este proyecto tiene como objetivo optimizar los gastos de marketing mediante el análisis de datos de visitas, pedidos y costos publicitarios.  
+Se busca comprender el comportamiento del usuario, identificar las fuentes de adquisición más rentables y aplicar métricas clave para mejorar la toma de decisiones.
 
-## 🧠 Business Objectives
+## 🎯 Objetivos del Negocio
 
-- Understand user behavior across sessions and purchases  
-- Identify high-performing acquisition channels  
-- Reduce wasted advertising spend  
-- Improve profitability per user  
-- Optimize marketing strategy based on data
+- Comprender el comportamiento de los usuarios  
+- Medir el rendimiento de cada fuente de adquisición  
+- Reducir gastos innecesarios en publicidad  
+- Aumentar la rentabilidad del negocio  
+- Tomar decisiones basadas en datos reales
 
-## 📊 Key Metrics
+## 📊 Métricas Clave
 
-- ✅ DAU / WAU / MAU  
-- ✅ Customer Acquisition Cost (CAC)  
-- ✅ Lifetime Value (LTV)  
-- ✅ Return on Marketing Investment (ROMI)  
-- ✅ Conversion Rate  
-- ✅ Average Order Value
+- ✅ Usuarios activos diarios, semanales y mensuales (DAU, WAU, MAU)  
+- ✅ Costo de Adquisición de Clientes (CAC)  
+- ✅ Valor de Vida del Cliente (LTV)  
+- ✅ Retorno de la Inversión en Marketing (ROMI)  
+- ✅ Tasa de conversión  
+- ✅ Valor promedio de compra
 
-## 🛠️ Tools & Technologies
+## 🛠️ Herramientas Utilizadas
 
 - 🐍 Python  
-- 🧮 Pandas & NumPy  
-- 📊 Matplotlib & Seaborn  
-- 📐 Statistical Analysis  
-- 🧪 Hypothesis Testing  
-- 📈 Data Visualization  
-- 🧹 Data Cleaning & Transformation
+- 🧮 Pandas  
+- 🔢 NumPy  
+- 📊 Matplotlib  
+- 🌈 Seaborn  
+- 📈 Visualización de datos  
+- 🧹 Limpieza de datos  
+- 📐 Análisis estadístico  
+- 🧪 Análisis de cohortes
 
-## 🔍 Methodology
+## 🔍 Metodología
 
-### 1️⃣ Data Preprocessing
-- Removal of duplicates  
-- Handling missing values  
-- Converting date formats  
-- Outlier detection
+### 1️⃣ Preprocesamiento de datos
+- Eliminación de duplicados  
+- Tratamiento de valores faltantes  
+- Conversión de tipos de datos  
+- Homologación de fechas  
+- Detección de valores atípicos
 
-### 2️⃣ User Behavior Analysis
-- DAU / WAU / MAU 
-- Session duration  
-- Returning users  
-- Activity trends
+### 2️⃣ Análisis del comportamiento del usuario
+- Cálculo de DAU, WAU, MAU  
+- Análisis de duración de sesión  
+- Frecuencia de retorno  
+- Segmentación por dispositivo
 
-### 3️⃣ Sales Performance
-- Average purchase value  
-- Orders per customer  
-- Revenue trends  
-- LTV by cohort
+### 3️⃣ Análisis de ventas
+- Tamaño promedio de compra  
+- Pedidos por cliente  
+- Análisis de ingresos  
+- Cálculo de LTV por cohorte
 
-### 4️⃣ Marketing Analysis
-- Cost by source  
-- CAC by channel  
-- ROMI calculation  
-- Performance comparison
+### 4️⃣ Análisis de marketing
+- Costos por canal  
+- Cálculo de CAC  
+- Evaluación de ROMI  
+- Comparación de fuentes de adquisición
 
-## 📈 Results & Insights
+## 📈 Resultados y Hallazgos
 
-### 🧍 User Behavior
-- Only 4% of users return monthly  
-- 16% return weekly  
-- Indicates a need for retention campaigns
+### 🧍 Comportamiento de Usuarios
+- El **16%** de los usuarios regresa semanalmente  
+- Solo el **4%** regresa mensualmente  
+- Se evidencia bajo nivel de retención
 
-### 💰 Revenue
-- Average order: **$5**  
-- Peaks observed during December promotions  
-- Most users make one purchase per month
+### 💰 Ventas
+- Compra promedio: **$5**  
+- Aumento en diciembre por promociones  
+- La mayoría compra una vez al mes
 
-### 📢 Marketing Performance
+### 📢 Desempeño de Marketing
 
-✅ Best performing source: **Source 1**  
-- Low cost  
-- High conversion  
-- High ROMI
+✅ **Mejor fuente:** Fuente 1  
+- Bajo costo  
+- Alta adquisición  
+- Alta rentabilidad
 
-❌ Worst performing sources:
-- Source 7  
-- Source 9  
-- Source 10  
+❌ **Peores fuentes:**
+- Fuente 7  
+- Fuente 9  
+- Fuente 10  
 
-## 🎯 Recommendations
+## ✅ Recomendaciones
 
-- ✅ Invest more in Source 1  
-- ❌ Stop spending on Sources 7, 9, and 10  
-- ⬇️ Reduce budget for Source 3  
-- 🚀 Focus on user retention strategies  
-- 📊 Monitor monthly performance metrics
+- ✅ Incrementar inversión en la Fuente 1  
+- ❌ Eliminar inversión en Fuentes 7, 9 y 10  
+- ⬇️ Reducir presupuesto en la Fuente 3  
+- 📣 Implementar campañas de retención  
+- 📊 Evaluar métricas mensualmente
 
-## 📚 Dataset Description
+## 📚 Diccionario de Datos
 
-### visits
-| Column | Description |
+### Tabla: visits
+| Campo | Descripción |
 |--------|-------------|
-| Uid | User ID |
-| Device | Device Type |
-| Start Ts | Session start |
-| End Ts | Session end |
-| Source Id | Marketing source |
+| Uid | ID único del usuario |
+| Device | Dispositivo |
+| Start Ts | Inicio de sesión |
+| End Ts | Fin de sesión |
+| Source Id | Fuente de adquisición |
 
-### orders
-| Column | Description |
+### Tabla: orders
+| Campo | Descripción |
 |--------|-------------|
-| Uid | User ID |
-| Buy Ts | Purchase date |
-| Revenue | Order revenue |
+| Uid | Usuario |
+| Buy Ts | Fecha de compra |
+| Revenue | Ingresos |
 
-### costs
-| Column | Description |
+### Tabla: costs
+| Campo | Descripción |
 |--------|-------------|
-| source_id | Marketing source |
-| dt | Date |
-| costs | Daily cost |
+| source_id | Fuente |
+| dt | Fecha |
+| costs | Gasto diario |
 
-## 🏁 Final Conclusion
+## 🏁 Conclusión Final
 
-This analysis allowed clear identification of profitable and unprofitable campaigns.  
-Marketing investment should focus on channels that generate real business value.
+Este proyecto permitió identificar claramente qué canales generan valor real para el negocio.
 
-✅ Data-driven marketing = Better results  
-✅ Optimized spending = Higher ROI
+📍 La inversión debe concentrarse en fuentes rentables.  
+📍 La retención es más importante que la adquisición masiva.
 
-## 📂 Repository Structure
+✅ Marketing basado en datos = mejores resultados.
+
+## 📂 Estructura del Repositorio
 
 ```text
-📁 project_root  
+📁 Proyecto  
  ┣ 📜 README.md  
  ┣ 📓 notebook.ipynb  
  ┣ 📂 data  
  ┗ 📂 reports  
+▶️ Instrucciones de Ejecuci
